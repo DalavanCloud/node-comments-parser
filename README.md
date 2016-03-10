@@ -7,7 +7,7 @@ This scripts extracts comments from JavaScript code. It's built on
 
 ## Example
 
-This script will transform example.js: 
+Transform the following example.js: 
 
 ```javascript
 'use strict';
@@ -36,7 +36,7 @@ module.exports = Test;
 
 to Object:
 
-```json
+```javascript
 [
   {
 	start: 3,
@@ -64,7 +64,7 @@ to Object:
 
 Install with [npm](https://npmjs.org/package/comments-parser):
 
-`npm install node-comments-parser`
+`npm install comments-parser`
 
 ## Usage
 
