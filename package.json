@@ -1,0 +1,41 @@
+{
+  "name": "comments-parser",
+  "version": "1.0.0",
+  "description": "This scripts extracts comments from JavaScript code",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run jshint && npm run jscs && npm run mocha",
+    "mocha": "node_modules/.bin/mocha ./test",
+    "jscs": "node_modules/.bin/jscs .",
+    "jshint": "node_modules/.bin/jshint --exclude ./node_modules ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megahertz/node-comments-parser.git"
+  },
+  "keywords": [
+    "comments",
+    "javascript",
+    "js",
+    "jsdoc",
+    "extract",
+    "tags"
+  ],
+  "author": "Alexey Prokhorov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/megahertz/node-comments-parser/issues"
+  },
+  "homepage": "https://github.com/megahertz/node-comments-parser#readme",
+  "devDependencies": {
+    "jscs": "^2.11.0",
+    "jshint": "^2.9.1",
+    "jshint-reporter-jscs": "^0.1.0",
+    "mocha": "^2.4.5",
+    "rewire": "^2.5.1",
+    "should": "^8.2.2"
+  },
+  "dependencies": {
+    "esprima": "^2.7"
+  }
+}
