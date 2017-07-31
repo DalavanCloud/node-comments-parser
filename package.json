@@ -36,6 +36,6 @@
     "should": "^8.2.2"
   },
   "dependencies": {
-    "esprima": "^2.7"
+    "esprima": "4.0"
   }
 }
